@@ -15,5 +15,5 @@ for Filename in os.listdir('DiscordBot/Functions'):
         bot.load_extension(F'Functions.{Filename[:-3]}')
 
 if __name__ == "__main__":
-    bot.run('ODcyNzk4MDk3MzMwMjg2NjA0.YQvGkg.6j_jdWqaNDhV8p_ZL9YxkNfMjA8') # bot 的 token
+    bot.run('Token') # bot 的 token
   
